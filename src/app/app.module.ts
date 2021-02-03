@@ -13,6 +13,7 @@ import { CoursesService } from './shared/services/courses.service';
 import { LessonsService } from './shared/services/lessons.service';
 import { CoursesListComponent } from './courses/courses-list/courses-list.component';
 import { CourseDetailsComponent } from './courses/course-details/course-details.component';
+import { LessonListComponent } from './lessons/lesson-list/lesson-list.component';
 
 @NgModule({
   imports: [
@@ -28,7 +29,8 @@ import { CourseDetailsComponent } from './courses/course-details/course-details.
     HomeComponent,
     CoursesComponent,
     CoursesListComponent,
-    CourseDetailsComponent
+    CourseDetailsComponent,
+    LessonListComponent
   ],
   providers: [
     CoursesService,
